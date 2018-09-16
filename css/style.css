@@ -54,6 +54,14 @@ body {
   display: block;
   padding: 10px;
   margin: 20px auto;
+  box-shadow: 0 0 0 0 transparent;
+  
+  transition: .2s;
+}
+.download-game .btn:hover {
+  color: #222;
+  transform: scale(1.04);
+  box-shadow: 0 2px 8px 2px #333;
 }
 
 .page-footer {
@@ -66,14 +74,38 @@ body {
   color: #9a8afa;
   text-decoration: none;
   letter-spacing: 2rem;
+  
+  transition: color .2s;
+}
+
+.page-footer a:hover {
+  color: #ab9bff;
 }
 
 .download-game .download-game-btn {
   background-color: #ace9e7;
 }
+.download-game .download-game-btn:hover {
+  background-color: #a0ffe8;
+}
 
 .download-game .take-code-btn {
   background-color: #5780cd;
+}
+.download-game .take-code-btn:hover {
+  background-color: #5a85ff;
+}
+
+@media (max-width: 400px) {
+  .download-game h1 {
+    font-size: 20rem;
+  }
+  .download-game .btn {
+    font-size: 26rem; 
+  }
+  .page-footer {
+    font-size: 16rem;  
+  }
 }
 
 @media (min-width: 480px) {
