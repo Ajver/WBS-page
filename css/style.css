@@ -1,0 +1,92 @@
+html {
+  font-size: 1px;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #303030;
+  text-align: center;
+}
+
+.page-header {
+  
+}
+
+.page-logo {
+  font-size: 60rem;
+  color: #b79c80;
+  margin: 30px 20px;
+  letter-spacing: 10rem;
+  font-weight: 600;
+}
+
+.page-logo::after {
+  content: "Warhammer Battle Simulator";
+  font-size: 0.3em;
+  display: block;
+  color: #a68b70;
+  letter-spacing: 0.1em;
+}
+
+.download-game {
+  box-sizing: border-box;
+  padding: 40px 20px;
+  background-color: #404040;
+}
+
+.download-game h1 {
+  font-size: 23rem;
+  letter-spacing: 2rem;
+  color: #d6d6d6;
+  margin-bottom: 60px;
+}
+
+.download-game .btn {
+  font-size: 30rem;
+  letter-spacing: 1rem;
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  margin: 20px auto;
+}
+
+.page-footer {
+  font-size: 18rem;
+  color: #9a8a90;
+  padding: 20px;
+}
+
+.page-footer a {
+  color: #9a8afa;
+  text-decoration: none;
+  letter-spacing: 2rem;
+}
+
+.download-game .download-game-btn {
+  background-color: #ace9e7;
+}
+
+.download-game .take-code-btn {
+  background-color: #5780cd;
+}
+
+@media (min-width: 480px) {
+  .download-game .btn {
+    max-width: 480px;
+  }
+}
+
+@media (min-width: 768px) {
+  .page-logo {
+    font-size: 80rem;
+  }
+  .download-game h1 {
+    font-size: 26rem;
+  }
+}
