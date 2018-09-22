@@ -36,11 +36,20 @@ body {
   background-color: #404040;
 }
 
+.download-game header {
+  margin-bottom: 60px;
+}
+
 .download-game h1 {
   font-size: 23rem;
   letter-spacing: 2rem;
   color: #d6d6d6;
-  margin-bottom: 60px;
+}
+
+.download-game header p {
+  font-size: 17rem; 
+  color: #d6d6d6;
+  margin-top: 10px;
 }
 
 .download-game .btn {
