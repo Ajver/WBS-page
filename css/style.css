@@ -58,7 +58,7 @@ body {
   color: #333;
   text-decoration: none;
   display: block;
-  padding: 10px;
+  padding: 10px 0;
   margin: 20px auto;
   box-shadow: 0 0 0 0 transparent;
   position: relative;
@@ -72,15 +72,28 @@ body {
   box-shadow: 0 2px 8px 2px #333;
 }
 
+.download-game-btn.btn {
+	display: flex;
+	padding: 0;
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+.download-game-btn p {
+	padding: 10px 0;
+	flex-grow: 1;
+}
+
 .download-game .zip-btn::after,
 .download-game .rar-btn::after {
   display: block;
   width: 80px;
-  position: absolute;
   padding: 10px 0;
+  /*
   right: 0;
   top: 0;
   bottom: 0;
+  */
   border-left: 1px solid #333;
   
   transition: .2s;
